@@ -28,3 +28,13 @@
   background: #333;
   border-radius: 10px;
 }
+
+.command-box {
+  background-color: #333;
+  color: #00ff66;
+  padding: 1rem;
+  border-radius: 8px;
+  font-family: Consolas, Monaco, monospace;
+  margin: 1rem 0;
+  overflow-x: auto;
+}
