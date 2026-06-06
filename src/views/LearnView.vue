@@ -15,11 +15,8 @@ const prevCommand = () => {
 </script>
 
 <template>
-        <h1 class="text-6xl font-bold font-mono text-green-500 mt-10 mb-10 text-center ">Compu app</h1>
-  <div class="computer">
-    <div class="screen">
-
-
+<h1 class= "text-xl pb-4">This is the learn view</h1>
+</br>
             <div v-if="selected">
                 <h2>{{ selected.command }}</h2>
                 <p>{{ selected.desc }}</p>
@@ -30,14 +27,6 @@ const prevCommand = () => {
                 <button class="text-green-500 hover:text-green-300" @click="prevCommand">[Previous]</button>
                 <button class="text-green-500 hover:text-green-300" @click="nextCommand">[Next]</button>
             </div>
-
-        
-
-    </div>
-
-    <div class="stand"></div>
-    <div class="base"></div>
-  </div>
 </template>
 
 

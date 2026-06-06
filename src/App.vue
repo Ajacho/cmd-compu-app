@@ -1,8 +1,9 @@
 <script setup>
-import ComputerMonitor from './components/ComputerMonitor.vue'
-import HelloWorld from './components/HelloWorld.vue'
+import ComputerFrame from './components/ComputerFrame.vue'
 </script>
 
 <template>
-  <ComputerMonitor />
+  <ComputerFrame >
+    <router-view />
+  </ComputerFrame>
 </template>

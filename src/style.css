@@ -13,6 +13,7 @@
   background: #111;
   color: #00ff00;
   padding: 20px;
+  overflow: auto;
 }
 
 .stand {
