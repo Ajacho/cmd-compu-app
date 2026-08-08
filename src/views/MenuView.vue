@@ -1,6 +1,6 @@
 <template>
-  <h1 class="text-5xl font-bold font-mono text-green-500 mb-5 text-center">
-    Menu
+  <h1 class="text-6xl font-bold font-mono text-green-500 mt-5 mb-10 text-center">
+    CompuHub
   </h1>
 
   <div class="card grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -26,7 +26,7 @@
         @click="$router.push('/games')"
         class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
       >
-        Go to Games
+        Go to Game
       </button>
     </div>
   </div>

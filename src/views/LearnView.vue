@@ -134,6 +134,12 @@ const currentCommand = computed(() => {
 <p class="text-green-300 mt-4">
   Tip: <span class="text-white">{{ currentCommand.tip }}</span>
 </p>
+  <button
+    @click="$router.push('/')"
+    class="text-white hover:bg-green-600 mt-2"
+  >
+    Go back to menu
+  </button>
 
 
     <div class="absolute bottom-4 left-0 w-full grid grid-cols-2 gap-2 p-4">
