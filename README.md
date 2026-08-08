@@ -4,7 +4,7 @@ CMD Compu is a learning app designed to help junior IT technicians learn and pra
 
 ## 🚀 Want to Use It?
 
-👉 [CompuApp](https://)
+👉 [CompuApp](https://Ajacho.github.io/cmd-compu-app/)
 
 ## 📚 Learning Section
 
