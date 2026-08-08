@@ -20,7 +20,9 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  // Use the HTML5 history because we are deploying to GitHub Pages, which does not support hash-based routing
+history: createWebHistory(import.meta.env.BASE_URL),
+
   routes
 })
 
